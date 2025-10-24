@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Richard Uličny - Informačné a Sieťové Technológie</title>
+    <style>
+        /* Základné štýly pre telo dokumentu a písmo */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9; /* Svetlé pozadie */
+            color: #333;
+        }
+
+        /* Kontajner pre obmedzenie šírky a centrovanie obsahu */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hlavička a meno */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #007bff; /* Modrá linka */
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #007bff;
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #333;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+
+        /* Štýly pre zoznamy (Zručnosti, Projekty) */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background: #e9ecef;
+            margin-bottom: 8px;
+            padding: 10px 15px;
+            border-radius: 4px;
+        }
+        
+        /* Štýly pre sekciu projektu (hlavne nadpis) */
+        .project h3 {
+            color: #555;
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+
+        .project p {
+            margin-left: 15px;
+            font-style: italic;
+        }
+
+        .contact p strong {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Richard Uličny</h1>
+            <p>Študent | Informačné a sieťové technológie</p>
+        </header>
+
+        <section id="o-mne">
+            <h2>O mne</h2>
+            <p>Volám sa Richard Uličny a som študentom na <strong>Spojenej škole, Kollárova 17, Sečovce</strong>, kde študujem odbor <strong>Informačné a sieťové technológie (IST)</strong>.</p>
+            <p>Svet technológií ma fascinuje, predovšetkým oblasť správy sietí a systémovej administratívy. Mojím cieľom je neustále sa vzdelávať a získavať praktické skúsenosti v IT infraštruktúre.</p>
+        </section>
+
+        <section id="vzdelanie">
+            <h2>Vzdelanie</h2>
+            <p><strong>Spojená škola, Kollárova 17, Sečovce</strong></p>
+            <ul>
+                <li><strong>Odbor:</strong> 2561 K - Informačné a sieťové technológie</li>
+                <li><strong>Roky štúdia:</strong> 2023 - 2026</li>
+                <li><strong>Zameranie:</strong> Príprava na návrh, inštaláciu, konfiguráciu a správu počítačových sietí a IT systémov.</li>
+            </ul>
+        </section>
+
+        <section id="zrucnosti">
+            <h2>Odborné zručnosti</h2>
+            
+            <h3>Sieťové technológie</h3>
+            <ul>
+                <li>Návrh a správa LAN/WAN sietí (Protokoly TCP/IP, DNS, DHCP)</li>
+                <li>Konfigurácia smerovačov a prepínačov (napr. Cisco IOS, MikroTik RouterOS)</li>
+                <li>Sieťová simulácia (Cisco Packet Tracer)</li>
+            </ul>
+
+            <h3>Operačné systémy</h3>
+            <ul>
+                <li>Správa OS Windows 10/11 a základy Windows Server (Active Directory)</li>
+                <li>Základy správy OS Linux (práca v termináli, konfigurácia služieb)</li>
+            </ul>
+            
+            <h3>Hardvér a bezpečnosť</h3>
+            <ul>
+                <li>Diagnostika a údržba PC komponentov</li>
+                <li>Základy sieťovej bezpečnosti a firewallov</li>
+            </ul>
+        </section>
+
+        <section id="projekty">
+            <h2>Školské a osobné projekty</h2>
+            <p><em>(Doplňte sem konkrétne projekty, ktoré preukazujú vaše praktické zručnosti.)</em></p>
+
+            <div class="project">
+                <h3>Príklad 1: Návrh a simulácia siete pre malú firmu</h3>
+                <p><strong>Popis:</strong> Vytvoril som návrh siete pre fiktívnu firmu s použitím VLAN a smerovania, ktorý bol overený v simulátore Packet Tracer.</p>
+                <p><strong>Použité technológie:</strong> Cisco Packet Tracer, VLAN, Smerovanie.</p>
+            </div>
+
+            <div class="project">
+                <h3>Príklad 2: Inštalácia a konfigurácia webového servera</h3>
+                <p><strong>Popis:</strong> Na virtuálnom stroji som nainštaloval a nakonfiguroval Linuxový operačný systém (Ubuntu Server) a spustil na ňom jednoduchý webový server (Apache/Nginx).</p>
+                <p><strong>Použité technológie:</strong> Linux (Ubuntu), Apache/Nginx, SSH.</p>
+            </div>
+        </section>
+
+        <section id="kontakt" class="contact">
+            <h2>Kontakt</h2>
+            <p>Ak vás moje portfólio zaujalo, neváhajte ma kontaktovať.</p>
+            <p><strong>Email:</strong> <a href="mailto:ulicnyrichard07@gmail.com">ulicnyrichard07@gmail.com</a></p>
+        </section>
+        
+    </div>
+
+</body>
+</html>
